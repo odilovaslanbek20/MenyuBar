@@ -69,33 +69,48 @@ function MenuPage() {
 							<h2 className='mt-[15px] font-["Roboto"] font-semibold text-[18px] text-[#494949]'>
 								Sozlamalar
 							</h2>
-							<div className='group py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
+							<div className='py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
 								<MdOutlineNotificationsPaused className='text-[25px]' />
-								<p className='text-[15px] group-hover:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'>
+								<p
+									className='text-[15px] hover:text-[#60a5fa] focus:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'
+									tabindex='0'
+								>
 									Bildirishnomalar
 								</p>
 							</div>
-							<div className='group py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
+							<div className='py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
 								<TbLockCode className='text-[25px]' />
-								<p className='text-[15px] group-hover:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'>
+								<p
+									className='text-[15px] hover:text-[#60a5fa] focus:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'
+									tabindex='0'
+								>
 									Hafsizlik
 								</p>
 							</div>
-							<div className='group py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
+							<div className='py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
 								<IoStatsChartOutline className='text-[25px]' />
-								<p className='text-[15px] group-hover:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'>
+								<p
+									className='text-[15px] hover:text-[#60a5fa] focus:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'
+									tabindex='0'
+								>
 									Statistika
 								</p>
 							</div>
-							<div className='group py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
+							<div className='py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
 								<MdGroups className='text-[25px]' />
-								<p className='text-[15px] group-hover:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'>
+								<p
+									className='text-[15px] hover:text-[#60a5fa] focus:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'
+									tabindex='0'
+								>
 									Gruhlarim
 								</p>
 							</div>
-							<div className='group py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
+							<div className='py-[5px] my-[8px] flex items-center gap-[20px] cursor-pointer'>
 								<MdOutlineUnsubscribe className='text-[25px]' />
-								<p className='text-[15px] group-hover:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'>
+								<p
+									className='text-[15px] hover:text-[#60a5fa] focus:text-[#60a5fa] font-medium font-["Roboto"] text-[rgba(26,26,26,1)]'
+									tabindex='0'
+								>
 									Obunachilarim
 								</p>
 							</div>
