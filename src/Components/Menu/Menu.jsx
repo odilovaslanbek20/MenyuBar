@@ -11,8 +11,8 @@ import { MdOutlineNotificationsPaused } from 'react-icons/md'
 function MenuPage() {
 	return (
 		<>
-			<div className='w-full m-auto flex items-center py-[50px] justify-center h-auto bg-[#ebe9e9]'>
-				<div className='w-[376px] max-[430px]:mx-[20px] max-[430px]:w-full m-auto bg-[#fff] p-[24px]'>
+			<div className='w-full m-auto flex items-center justify-center h-auto bg-[#ebe9e9]'>
+				<div className='w-[376px] max-[430px]:w-full m-auto bg-[#fff] p-[24px]'>
 					<div className='w-full'>
 						<div className='w-full items-end gap-0 mb-[20px] flex'>
 							<GrTopCorner className='text-[35px] text-blue-500' />
